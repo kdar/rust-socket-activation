@@ -1,0 +1,11 @@
+[package]
+authors = ["Kevin Darlington <kevin@outroot.com>"]
+name = "rust-socket-activation"
+version = "0.1.0"
+
+[dependencies]
+env_logger = "0.4.3"
+futures = "0.1.16"
+systemd = "0.1.0"
+tokio-core = "0.1.9"
+tokio-io = "0.1.3"

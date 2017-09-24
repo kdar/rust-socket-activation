@@ -1,0 +1,6 @@
+[Socket]
+#ListenStream=/run/rust-socket-activation.sock
+ListenStream=0.0.0.0:8080
+
+[Install]
+WantedBy=sockets.target
